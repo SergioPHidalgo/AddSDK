@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08A994BC2666598200A35BA3 /* AddSKDMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A994BB2666598200A35BA3 /* AddSKDMain.swift */; };
 		17CD3E13049C475D4C55E6CD1A0E46C7 /* Pods-AddSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6994C0279CFFC97F3CF0D63A2893CAA1 /* Pods-AddSDK_Example-dummy.m */; };
 		2C02E94ACC0E061F8B4C18D594206748 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		3507E203086FF84439E1E4360A1B6737 /* Pods-AddSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C7784CB4E5B4FF5D5B2BECB8EDDE568 /* Pods-AddSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -15,7 +16,6 @@
 		66356878EC2C6F4584EB9930C2B1E2A7 /* Pods-AddSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A696B1898FA2F5D59703011C0EA350 /* Pods-AddSDK_Tests-dummy.m */; };
 		9A4691F09C4F7D11BDAE883DA109DB5E /* Pods-AddSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7830EF0E14D41A4FBD0B9D6FD7D7D98D /* Pods-AddSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9E93AE25EA722E7FC2E6676FD8DFF17A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		A6D675783C4191E25B96713CB4F8B6EC /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8276985ECF3EE82721597D883E0CB498 /* ReplaceMe.swift */; };
 		E00736DEB6FB1E8BB047B802C178D273 /* AddSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BED61964AA1FD22213F7AE7C6B69BB50 /* AddSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -40,7 +40,8 @@
 		00B1A9E9F0F7CEBD6B8FF2DC2A1792FB /* Pods-AddSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AddSDK_Tests.modulemap"; sourceTree = "<group>"; };
 		01B676E3149191E55127F6AEC8E7A225 /* Pods-AddSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AddSDK_Tests-Info.plist"; sourceTree = "<group>"; };
 		0385273B64A7834F9F6FE3C6D113B4FF /* AddSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AddSDK.debug.xcconfig; sourceTree = "<group>"; };
-		11846E05E3A1E3EB5F00B7D56CFE1BB3 /* Pods_AddSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AddSDK_Example.framework; path = "Pods-AddSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08A994BB2666598200A35BA3 /* AddSKDMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSKDMain.swift; sourceTree = "<group>"; };
+		11846E05E3A1E3EB5F00B7D56CFE1BB3 /* Pods_AddSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AddSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		137CB0C7B2838AA04AD6538EC4B6A32A /* Pods-AddSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AddSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2661FF54ADD214DA637396BB646B620F /* Pods-AddSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AddSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
 		2EEBBBEA706DE197AB57F4FC202F8165 /* AddSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AddSDK.release.xcconfig; sourceTree = "<group>"; };
@@ -54,13 +55,12 @@
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		739CD0D2BFEF81123B973AF3183DA8CB /* Pods-AddSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AddSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7830EF0E14D41A4FBD0B9D6FD7D7D98D /* Pods-AddSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AddSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
-		8276985ECF3EE82721597D883E0CB498 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = AddSDK/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		8C7784CB4E5B4FF5D5B2BECB8EDDE568 /* Pods-AddSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AddSDK_Example-umbrella.h"; sourceTree = "<group>"; };
-		8E33B900466FC06E84880EC66B4ACFC5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		9915D6AA2B97E514E8CF1A2BCF8AD957 /* AddSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AddSDK.framework; path = AddSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E33B900466FC06E84880EC66B4ACFC5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9915D6AA2B97E514E8CF1A2BCF8AD957 /* AddSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AddSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C635134326F7E7F5BDDADF05CAE8DEF /* Pods-AddSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AddSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A12675DCD8B887D3F85B5ADDE93677E7 /* Pods_AddSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AddSDK_Tests.framework; path = "Pods-AddSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A12675DCD8B887D3F85B5ADDE93677E7 /* Pods_AddSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AddSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE5B852957B934CE75B5AE9977EB0F2A /* Pods-AddSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AddSDK_Example-Info.plist"; sourceTree = "<group>"; };
 		B26BCE91D5E3D116A348F577D26316EE /* AddSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AddSDK-dummy.m"; sourceTree = "<group>"; };
 		B84F0D57AFB72DF4A97A3B2D7B23E456 /* Pods-AddSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AddSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -68,8 +68,8 @@
 		BED61964AA1FD22213F7AE7C6B69BB50 /* AddSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AddSDK-umbrella.h"; sourceTree = "<group>"; };
 		D3ED7854FA78FAC401745CD30E6E9DBF /* Pods-AddSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AddSDK_Example.modulemap"; sourceTree = "<group>"; };
 		D5B9078F1879FD8EDBE5B91AFD44B1D7 /* Pods-AddSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AddSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D87B89AFD4579A417A2FBB827CDD0C85 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		F2E915A1F08631F99C55A0EC2A38CB58 /* AddSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AddSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D87B89AFD4579A417A2FBB827CDD0C85 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F2E915A1F08631F99C55A0EC2A38CB58 /* AddSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AddSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,7 @@
 		0275FA1AAB8E65866CB5E399E05FE879 /* AddSDK */ = {
 			isa = PBXGroup;
 			children = (
-				8276985ECF3EE82721597D883E0CB498 /* ReplaceMe.swift */,
+				08A994BB2666598200A35BA3 /* AddSKDMain.swift */,
 				96D3F21674F7AF578900A86E5D6B4744 /* Pod */,
 				5DAF47E31AC95E284BF6582150954AFE /* Support Files */,
 			);
@@ -383,8 +383,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08A994BC2666598200A35BA3 /* AddSKDMain.swift in Sources */,
 				439B1E6B805CF154322EAA6271E2CD14 /* AddSDK-dummy.m in Sources */,
-				A6D675783C4191E25B96713CB4F8B6EC /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -685,8 +685,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
