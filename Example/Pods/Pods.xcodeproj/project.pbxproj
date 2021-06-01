@@ -103,12 +103,20 @@
 		0275FA1AAB8E65866CB5E399E05FE879 /* AddSDK */ = {
 			isa = PBXGroup;
 			children = (
-				08A994BB2666598200A35BA3 /* AddSKDMain.swift */,
+				08D363F126665CF800C1B65C /* Sources */,
 				96D3F21674F7AF578900A86E5D6B4744 /* Pod */,
 				5DAF47E31AC95E284BF6582150954AFE /* Support Files */,
 			);
 			name = AddSDK;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		08D363F126665CF800C1B65C /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				08A994BB2666598200A35BA3 /* AddSKDMain.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		16243C278836D6E9095E68ADBD9E3091 /* Targets Support Files */ = {
