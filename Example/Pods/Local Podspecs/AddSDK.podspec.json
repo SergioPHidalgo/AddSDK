@@ -1,0 +1,22 @@
+{
+  "name": "AddSDK",
+  "version": "0.1.0",
+  "summary": "A short description of AddSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/SergioPHidalgo/AddSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "SergioPHidalgo": "spenin@hiberus.com"
+  },
+  "source": {
+    "git": "https://github.com/SergioPHidalgo/AddSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "AddSDK/Classes/**/*"
+}

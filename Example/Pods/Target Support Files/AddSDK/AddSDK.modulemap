@@ -1,0 +1,6 @@
+framework module AddSDK {
+  umbrella header "AddSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
