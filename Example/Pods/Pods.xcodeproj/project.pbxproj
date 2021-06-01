@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		081F776C2666744200C33676 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 081F77682666744200C33676 /* .gitkeep */; };
-		081F776D2666744200C33676 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 081F776A2666744200C33676 /* .gitkeep */; };
-		081F776E2666744200C33676 /* AddSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081F776B2666744200C33676 /* AddSDK.swift */; };
+		081F77762666761300C33676 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 081F77722666761300C33676 /* .gitkeep */; };
+		081F77772666761300C33676 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 081F77742666761300C33676 /* .gitkeep */; };
+		081F77782666761300C33676 /* AddSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081F77752666761300C33676 /* AddSDK.swift */; };
 		17CD3E13049C475D4C55E6CD1A0E46C7 /* Pods-AddSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6994C0279CFFC97F3CF0D63A2893CAA1 /* Pods-AddSDK_Example-dummy.m */; };
 		2C02E94ACC0E061F8B4C18D594206748 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		3507E203086FF84439E1E4360A1B6737 /* Pods-AddSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C7784CB4E5B4FF5D5B2BECB8EDDE568 /* Pods-AddSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -42,9 +42,9 @@
 		00B1A9E9F0F7CEBD6B8FF2DC2A1792FB /* Pods-AddSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AddSDK_Tests.modulemap"; sourceTree = "<group>"; };
 		01B676E3149191E55127F6AEC8E7A225 /* Pods-AddSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AddSDK_Tests-Info.plist"; sourceTree = "<group>"; };
 		0385273B64A7834F9F6FE3C6D113B4FF /* AddSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AddSDK.debug.xcconfig; sourceTree = "<group>"; };
-		081F77682666744200C33676 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		081F776A2666744200C33676 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		081F776B2666744200C33676 /* AddSDK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddSDK.swift; sourceTree = "<group>"; };
+		081F77722666761300C33676 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		081F77742666761300C33676 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		081F77752666761300C33676 /* AddSDK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddSDK.swift; sourceTree = "<group>"; };
 		11846E05E3A1E3EB5F00B7D56CFE1BB3 /* Pods_AddSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AddSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		137CB0C7B2838AA04AD6538EC4B6A32A /* Pods-AddSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AddSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2661FF54ADD214DA637396BB646B620F /* Pods-AddSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AddSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -107,6 +107,7 @@
 		0275FA1AAB8E65866CB5E399E05FE879 /* AddSDK */ = {
 			isa = PBXGroup;
 			children = (
+				081F776F2666761300C33676 /* Sources */,
 				96D3F21674F7AF578900A86E5D6B4744 /* Pod */,
 				5DAF47E31AC95E284BF6582150954AFE /* Support Files */,
 			);
@@ -114,37 +115,36 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		081F77652666744200C33676 /* Sources */ = {
+		081F776F2666761300C33676 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				081F77662666744200C33676 /* AddSDK */,
+				081F77702666761300C33676 /* AddSDK */,
 			);
-			name = Sources;
-			path = ../Sources;
+			path = Sources;
 			sourceTree = "<group>";
 		};
-		081F77662666744200C33676 /* AddSDK */ = {
+		081F77702666761300C33676 /* AddSDK */ = {
 			isa = PBXGroup;
 			children = (
-				081F77672666744200C33676 /* Classes */,
-				081F77692666744200C33676 /* Assets */,
+				081F77712666761300C33676 /* Classes */,
+				081F77732666761300C33676 /* Assets */,
 			);
 			path = AddSDK;
 			sourceTree = "<group>";
 		};
-		081F77672666744200C33676 /* Classes */ = {
+		081F77712666761300C33676 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				081F77682666744200C33676 /* .gitkeep */,
+				081F77722666761300C33676 /* .gitkeep */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		081F77692666744200C33676 /* Assets */ = {
+		081F77732666761300C33676 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				081F776A2666744200C33676 /* .gitkeep */,
-				081F776B2666744200C33676 /* AddSDK.swift */,
+				081F77742666761300C33676 /* .gitkeep */,
+				081F77752666761300C33676 /* AddSDK.swift */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -204,7 +204,6 @@
 		C57890F6880FBA362848D67AD83144AD /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				081F77652666744200C33676 /* Sources */,
 				0275FA1AAB8E65866CB5E399E05FE879 /* AddSDK */,
 			);
 			name = "Development Pods";
@@ -401,8 +400,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				081F776C2666744200C33676 /* .gitkeep in Resources */,
-				081F776D2666744200C33676 /* .gitkeep in Resources */,
+				081F77762666761300C33676 /* .gitkeep in Resources */,
+				081F77772666761300C33676 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,7 +428,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				081F776E2666744200C33676 /* AddSDK.swift in Sources */,
+				081F77782666761300C33676 /* AddSDK.swift in Sources */,
 				439B1E6B805CF154322EAA6271E2CD14 /* AddSDK-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
